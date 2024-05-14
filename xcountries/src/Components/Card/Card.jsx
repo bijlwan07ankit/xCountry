@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"; 
 import axios from 'axios';
-import styles from Card.module.css;
+import styles from "./Card.module.css";
 import Api from "../../Api";
 
 export default  function Card(){
