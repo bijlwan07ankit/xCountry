@@ -1,10 +1,12 @@
 import './App.css';
+import Card from "./Components/card"
 
 function App() {
   return (
-    <>
-    <h1>My NAme is Ankit </h1></>
+  
+    <div className="App">
+    <Card />
+    </div>
   );
 }
-
 export default App;
